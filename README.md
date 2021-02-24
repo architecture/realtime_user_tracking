@@ -1,5 +1,8 @@
-<h1 align="center"> Count Online Users </h1> <br>
-<br/>
+[![HitCounts](http://hits.dwyl.io/Synkevych/realtime_user_tracking.svg)](http://hits.dwyl.io/Synkevych/realtime_user_tracking)
+[![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge&style=flat)](https://count-online-users.herokuapp.com)
+[![react](https://github.com/aleen42/badges/blob/master/src/react.svg)](https://aleen42.github.io/badges/src/react.svg)
+[![router](https://github.com/aleen42/badges/blob/master/src/router.svg)](https://aleen42.github.io/badges/src/router.svg)
+<h1 align="center"> Count Online Users </h1>
 <p align="center">
   Count Online Users - tracks whether a user is online or not(has opened webpage in browser), showing a green button "Online" at the user card and changes the users counter at the subheader. Built with RoR and React framework, deployed to Heroku.
 
@@ -124,7 +127,8 @@ end
 `yarn add react-router-dom`  
 `yarn add axios`  
 `yarn add styled-components`  
-``
+`git checkout redis_for_heroku -- config/cable.yml ` - get changes from specific files from another branch
+`git merge --squash fix_updating_when_user_returned` - squash all changes from a branch to the master
 
 ## Feedback
 
